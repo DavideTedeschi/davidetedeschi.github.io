@@ -1,0 +1,79 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+<div class="wordwrap">The complete and up-to-date list is on <a href="https://ricerca.univaq.it/cris/rp/rp84364">IRIS UnivAQ</a>.</div>
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
+
+{% include base_path %}
+
+<style>.pub-filters{margin:1em 0}.pub-filters .btn--inverse,.archive__item .btn--inverse{color:var(--global-text-color) !important}</style>
+<div class="pub-filters" role="group" aria-label="Filter publications by topic">
+  <button type="button" class="btn btn--small" data-topic="all" aria-pressed="true">All</button>
+  <button type="button" class="btn btn--inverse btn--small" data-topic="ultrafast" aria-pressed="false">Ultrafast &amp; nonlinear optics</button>
+  <button type="button" class="btn btn--inverse btn--small" data-topic="2d" aria-pressed="false">2D materials</button>
+  <button type="button" class="btn btn--inverse btn--small" data-topic="quantum" aria-pressed="false">Quantum photonics</button>
+  <button type="button" class="btn btn--inverse btn--small" data-topic="nanowires" aria-pressed="false">Nanowires</button>
+  <button type="button" class="btn btn--inverse btn--small" data-topic="chiral" aria-pressed="false">Chiral photonics</button>
+  <button type="button" class="btn btn--inverse btn--small" data-topic="raman" aria-pressed="false">Raman &amp; biophotonics</button>
+  <button type="button" class="btn btn--inverse btn--small" data-topic="materials" aria-pressed="false">Other materials</button>
+</div>
+
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2 class="pub-group-title">{{ category[1].title }}</h2><hr class="pub-group-rule" />
+        {% assign title_shown = true %}
+      {% endunless %}
+      <div class="pub-item" data-topics="{{ post.topics | join: ' ' }}">{% include archive-single.html %}</div>
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+
+
+
+<script>
+(function () {
+  var buttons = document.querySelectorAll('.pub-filters button');
+  function apply(topic) {
+    document.querySelectorAll('.pub-item').forEach(function (el) {
+      var t = (el.getAttribute('data-topics') || '').split(' ');
+      el.style.display = (topic === 'all' || t.indexOf(topic) !== -1) ? '' : 'none';
+    });
+    document.querySelectorAll('.pub-group-title').forEach(function (h) {
+      var el = h.nextElementSibling, any = false;
+      while (el && !el.classList.contains('pub-group-title')) {
+        if (el.classList.contains('pub-item') && el.style.display !== 'none') any = true;
+        el = el.nextElementSibling;
+      }
+      h.style.display = any ? '' : 'none';
+      h.nextElementSibling.style.display = any ? '' : 'none';
+    });
+    buttons.forEach(function (b) {
+      var on = b.getAttribute('data-topic') === topic;
+      b.classList.toggle('btn--inverse', !on);
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+  }
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () { apply(b.getAttribute('data-topic')); });
+  });
+})();
+</script>

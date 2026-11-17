@@ -1,0 +1,31 @@
+---
+layout: archive
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign teaching_sorted = site.teaching | sort: 'order' %}
+{% for post in teaching_sorted %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2>Student laboratory projects</h2>
+
+<p>I supervise experimental projects within advanced courses of the BSc and MSc programmes in Physics. In the BSc programme (courses <em>Complementi di Elettromagnetismo</em> and <em>Complementi di Introduzione alla Fisica Moderna</em>), students carry out optics experiments in our lab. Recent projects include:</p>
+
+<ul>
+  <li><strong>Temporal coherence and mode structure of laser sources.</strong> Fourier spectroscopy with a Michelson interferometer on a red diode laser and a He–Ne laser, to measure the coherence length, linewidth and longitudinal-mode structure.</li>
+  <li><strong>Laser beam profiling.</strong> Characterization of the radius and waist of a Gaussian laser beam using the knife-edge method and a CCD camera, on a self-diffraction setup.</li>
+  <li><strong>Surface plasmon resonance.</strong> Reflectance of a prism coated with a thin gold film: numerical modelling from Maxwell's equations and measurement of the plasmon resonance.</li>
+</ul>
+
+<p>In the MSc programme the projects are more research-oriented: MSc students contribute to ongoing research projects in the laboratory.</p>
+
+<h2>Lectures</h2>
+
+<ul>
+  <li><strong>Solid-state sources of quantum light</strong>, EULiST Blended Intensive Programme "Principles of Quantum and Nonlinear Photonics", University of L'Aquila, 2026. Two lectures on the generation of quantum states of light in solid-state devices, from transition-metal dichalcogenides to quantum dots, and on their use for entanglement, quantum teleportation, entanglement swapping and quantum key distribution.</li>
+</ul>

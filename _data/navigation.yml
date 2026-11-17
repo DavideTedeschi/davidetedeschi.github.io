@@ -1,0 +1,20 @@
+# Order of the links in the top menu of the website.
+
+main:
+  - title: "About"
+    url: /about/
+
+  - title: "Research"
+    url: /research/
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Talks"
+    url: /talks/
+
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "Lab"
+    url: /lab/
