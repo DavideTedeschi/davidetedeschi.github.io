@@ -60,7 +60,7 @@ We work in several ways: exploratory measurements, joint measurement campaigns, 
 * **Davide Tedeschi**, lab co-lead, University of L'Aquila
 * **Carino Ferrante**, lab co-lead, CNR-SPIN
 * **Luca Assogna**, PhD student in Physical and Chemical Sciences
-* **Paola Benassi**, retired researcher, University of L'Aquila, who continues to collaborate with the lab
+* **Paola Benassi**, researcher, University of L'Aquila
 
 ## Alumni
 
