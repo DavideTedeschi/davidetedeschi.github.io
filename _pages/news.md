@@ -28,4 +28,4 @@ author_profile: true
 * **Jul 2025**: [Strain-induced exciton redistribution among quantum emitters in two-dimensional materials](https://www.nature.com/articles/s41699-025-00588-8) has been published in *npj 2D Materials and Applications*.
 * **Jul 2025**: invited talk on nanophotonics for integrated chiroptical sensing of drug solutions at META 2025, Torremolinos.
 * **Dec 2024**: invited talk on strain-induced exciton transfer among quantum emitters in 2D materials at ISSON 2024, Canberra.
-* **Nov 2024**: joined the University of L'Aquila as Tenure-track Assistant Professor.
+* **Nov 2024**: joined the University of L'Aquila as a tenure-track assistant professor.
