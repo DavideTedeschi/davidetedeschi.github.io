@@ -1,4 +1,5 @@
 ---
+description: "Career, background, projects and service of Davide Tedeschi, experimental condensed-matter physicist at the University of L'Aquila."
 permalink: /about/
 title: "About me"
 author_profile: true

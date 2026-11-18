@@ -1,4 +1,5 @@
 ---
+description: "Research lines: nonlinear optics, transient absorption in 2D materials, chiral photonics for drug analysis and Raman microscopy of nanoplastics."
 permalink: /research/
 title: "Research"
 author_profile: true

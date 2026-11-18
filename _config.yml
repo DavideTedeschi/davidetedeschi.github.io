@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Davide Tedeschi"
 title_separator          : "-"
 name                     : &name "Davide Tedeschi"
-description              : &description "Davide Tedeschi, physicist at the University of L'Aquila: ultrafast and nonlinear optics, 2D semiconductors, quantum light"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Experimental condensed-matter physics at the University of L'Aquila: femtosecond spectroscopy, nonlinear optics, Raman microscopy, two-dimensional materials, ENZ systems, chiral photonics and biophotonics."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://davidetedeschi.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -30,6 +30,8 @@ author:
   location         : "L'Aquila, IT"
   employer         : "University of L'Aquila"
   uri              : # URL
+  institutional    : "https://tcpc.univaq.it/it/?option=com_sppagebuilder&view=page&id=1226"
+  iris             : "https://ricerca.univaq.it/cris/rp/rp84364"
   email            : "davide.tedeschi@univaq.it" 
 
   # Academic websites

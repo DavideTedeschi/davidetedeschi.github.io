@@ -1,4 +1,5 @@
 ---
+description: "The Nonlinear Ultrafast Spectroscopy Laboratory in L'Aquila: techniques, equipment, people, collaborations and thesis and PhD opportunities."
 permalink: /lab/
 title: "Nonlinear Ultrafast Spectroscopy Laboratory"
 author_profile: true

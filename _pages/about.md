@@ -1,4 +1,5 @@
 ---
+description: "Tenure-track assistant professor at the University of L'Aquila and co-lead of the Nonlinear Ultrafast Spectroscopy Laboratory: femtosecond spectroscopy, nonlinear optics and Raman microscopy."
 permalink: /
 author_profile: true
 ---

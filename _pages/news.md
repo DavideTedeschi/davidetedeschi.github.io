@@ -1,4 +1,5 @@
 ---
+description: "News from Davide Tedeschi and the Nonlinear Ultrafast Spectroscopy Laboratory."
 permalink: /news/
 title: "News"
 author_profile: true
