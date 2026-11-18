@@ -11,6 +11,21 @@ author_profile: true
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
+{% if site.author.orcid %}
+  <div class="wordwrap">My ORCID record is <a href="{{site.author.orcid}}">{{ site.author.orcid | remove: "https://orcid.org/" }}</a>.</div>
+{% endif %}
+
+<h2>Selected publications</h2>
+<ul>
+  <li>"Femtosecond self-diffraction as a measure of the nonlinear response spectrum", <i>Optics Letters</i> (2026). <a href="https://doi.org/10.1364/OL.582839">DOI</a></li>
+  <li>"Quantifying cellular nanoplastics accumulation using Raman microscopy", <i>ACS Omega</i> (2026). <a href="https://doi.org/10.1021/acsomega.6c06443">DOI</a></li>
+  <li>"High-performance chiral mirrors by twisted anisotropic photonic crystals", <i>Physical Review Applied</i> (2025). <a href="https://doi.org/10.1103/physrevapplied.23.064027">DOI</a></li>
+  <li>"Hole and electron effective masses in single InP nanowires with a wurtzite–zincblende homojunction", <i>ACS Nano</i> (2020). <a href="https://doi.org/10.1021/acsnano.0c04174">DOI</a></li>
+  <li>"Controlled micro/nanodome formation in proton-irradiated bulk transition-metal dichalcogenides", <i>Advanced Materials</i> (2019). <a href="https://doi.org/10.1002/adma.201903795">DOI</a></li>
+  <li>"Entanglement swapping with photons generated on demand by a quantum dot", <i>Physical Review Letters</i> (2019). <a href="https://doi.org/10.1103/PhysRevLett.123.160501">DOI</a></li>
+</ul>
+
+<h2>All publications</h2>
 
 {% include base_path %}
 
@@ -35,7 +50,7 @@ author_profile: true
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2 class="pub-group-title">{{ category[1].title }}</h2><hr class="pub-group-rule" />
+        <h3 class="pub-group-title">{{ category[1].title }}</h3><hr class="pub-group-rule" />
         {% assign title_shown = true %}
       {% endunless %}
       <div class="pub-item" data-topics="{{ post.topics | join: ' ' }}">{% include archive-single.html %}</div>
