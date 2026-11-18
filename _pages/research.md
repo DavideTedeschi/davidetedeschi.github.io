@@ -29,7 +29,7 @@ At the University of L'Aquila I co-lead, together with Carino Ferrante (CNR-SPIN
 **Recent work in L'Aquila**
 
 * L. Assogna, …, A. Marini, **D. Tedeschi**, C. Ferrante, "Femtosecond self-diffraction as a measure of the nonlinear response spectrum", *Optics Letters* 51, 1832 (2026). [DOI](https://doi.org/10.1364/OL.582839)
-* F. Perrella, …, C. Ferrante, **D. Tedeschi**, "Quantifying cellular nanoplastics accumulation using Raman microscopy", *ACS Omega* (2026). [DOI](https://doi.org/10.1021/acsomega.6c06443)
+* F. Perrella, …, C. Ferrante, **D. Tedeschi**, "Quantifying cellular nanoplastics accumulation using Raman microscopy", *ACS Omega* 11, 66784–66794 (2026). [DOI](https://doi.org/10.1021/acsomega.6c06443)
 * A. Vetrano, …, C. Ferrante, **D. Tedeschi**, …, C. Iacobucci, "Enantiopurity-dependent peptide coacervates and asymmetric organocatalysis", *Small*, e14872 (2026). [DOI](https://doi.org/10.1002/smll.202514872)
 * A. Alessandrini, …, **D. Tedeschi**, A. Marini, "High-performance chiral mirrors by twisted anisotropic photonic crystals", *Physical Review Applied* 23, 064027 (2025). [DOI](https://doi.org/10.1103/physrevapplied.23.064027)
 

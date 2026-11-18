@@ -7,7 +7,7 @@ author_profile: true
 
 * **Nov 2026**: at the IEEE Photonics Conference (IPC 2026) in Denver, where I also served as Topic Chair, I presented two talks: "Femtosecond self-diffraction as a measure of the nonlinear response spectrum" and "Raman microscopy as a tool to quantify intracellular nanoplastics accumulation".
 * **Oct 2026**: talk at NANOP 2026 in Rome on "The key role of electron depletion in second- and third-harmonic generation from an ENZ material".
-* **Oct 2026**: our paper [Quantifying cellular nanoplastics accumulation using Raman microscopy](https://doi.org/10.1021/acsomega.6c06443) has been accepted in *ACS Omega*.
+* **Oct 2026**: our paper [Quantifying cellular nanoplastics accumulation using Raman microscopy](https://doi.org/10.1021/acsomega.6c06443) has been published in *ACS Omega*.
 
   <img src="/images/toc-acs-omega-2026.png" alt="Table of contents graphic: polystyrene nanoplastics in a 2D intestinal barrier model, confocal Raman on Caco-2 cells and single-cell quantification" style="width:100%;max-width:420px">
 
